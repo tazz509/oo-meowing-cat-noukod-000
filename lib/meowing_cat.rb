@@ -1,9 +1,7 @@
 ## code your solution here.
 class Cat
 
-def initialize name
-  @name = name
-end
+attr_writer :name 
 
 def meow
   puts "meow"
