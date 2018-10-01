@@ -1,7 +1,7 @@
 ## code your solution here.
 class Cat
 
-attr_writer :name 
+attr_writer :name
 
 def meow
   puts "meow"
