@@ -1,8 +1,17 @@
 ## code your solution here.
-class  = Struct.new(:attr_names) do
-  def method_name
+class Cat
 
-  end
+attr_writer :name
 
-
+def meow
+  puts "meow"
 end
+end
+
+maru = Cat.new
+maru.name = "Maru"
+
+maru.name
+# => "Maru"
+
+maru.meow
